@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comunas">
+        <item></item>
+        <item>Cerrillos</item>
+        <item>Cerro Navia</item>
+        <item>Conchalí</item>
+        <item>El Bosque</item>
+        <item>Estación Central</item>
+        <item>Huechuraba</item>
+        <item>Independencia</item>
+        <item>La Cisterna</item>
+        <item>La Florida</item>
+        <item>La Granja</item>
+        <item>La Pintana</item>
+        <item>La Reina</item>
+        <item>Las Condes</item>
+        <item>Lo Barnechea</item>
+        <item>Lo Espejo</item>
+        <item>Lo Prado</item>
+        <item>Macul</item>
+        <item>Maipú</item>
+        <item>Ñuñoa</item>
+        <item>Pedro Aguirre Cerda</item>
+        <item>Peñalolén</item>
+        <item>Providencia</item>
+        <item>Pudahuel</item>
+        <item>Quilicura</item>
+        <item>Quinta Normal</item>
+        <item>Recoleta</item>
+        <item>Renca</item>
+        <item>San Joaquín</item>
+        <item>San Miguel</item>
+        <item>San Ramón</item>
+        <item>Santiago</item>
+        <item>Vitacura</item>
+    </string-array>
+
+    <string-array name="dias">
+        <item></item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+</resources>

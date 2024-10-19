@@ -1,4 +1,4 @@
-package com.example.gamelibery;
+package com.example.library;
 
 import org.junit.Test;
 

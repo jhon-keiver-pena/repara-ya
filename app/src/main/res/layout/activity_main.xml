@@ -5,15 +5,107 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/gradient_bienvenida"
+    tools:context="com.example.library.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.cardview.widget.CardView
+        android:layout_width="376dp"
+        android:layout_height="666dp"
+        app:cardBackgroundColor="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ReparaYa"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="296dp"
+                android:layout_height="320dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="282dp"
+                android:layout_height="61dp"
+                android:text="Soluciones rápidas y cercanas para cualquier reparación."
+                android:textAlignment="center"
+                android:textColor="#FDFAFA"
+                android:textColorLink="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toTopOf="@+id/btn_ir_inicio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.57"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_ir_inicio"
+                android:layout_width="202dp"
+                android:layout_height="54dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/background_btn_principal"
+                android:text="Iniciar Sesion"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:iconSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="164dp"
+                android:layout_height="26dp"
+                android:text="¿No tienes cuenta?"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_Home"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_Home"
+                android:background="@drawable/background_btn_ok"
+                android:layout_width="201dp"
+                android:layout_height="54dp"
+                android:layout_marginBottom="28dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Registrate"
+                android:textColorHint="#03A9F4"
+                android:textColorLink="#03A9F4"
+                android:textSize="20dp"
+                app:cornerRadius="@null"
+                app:iconPadding="0dp"
+                app:iconSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
